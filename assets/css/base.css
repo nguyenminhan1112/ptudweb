@@ -1,0 +1,27 @@
+:root{
+    --white-color:#fff;
+    --black-color:#000;
+    --text-color:#333;
+    --primary-color:#f53f2d;
+    --border-color:#dbdbdb;
+    --star-gold-color:#FFCE3E;
+    --primary-color-hover:#ed5c3f;
+
+    --header-height:120px;
+    --navbar-header:41px;
+    --header-with-search-height:calc(var(--header-height) - var( --navbar-header));
+    --header-sort-bar-height:46px;
+}
+
+*{
+    /* Kế thừa từ phần tử cha */
+    box-sizing:inherit; 
+    margin: 0;
+    padding: 0;
+} 
+html{
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
